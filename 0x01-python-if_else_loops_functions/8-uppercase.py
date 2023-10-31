@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def uppercase(str):
-    result = 0
+    result = ""
     for char in  str:
         if 'a' <= char <= 'z':
             upper = chr(ord(char) - ord('a') + ord('A'))
