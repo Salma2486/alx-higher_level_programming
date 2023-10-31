@@ -3,6 +3,7 @@ import random
 number = random.randint(-10000, 10000)
 if number < 0:
     mod = -number % 10
+    mod = -mod
 else:
     mod = number % 10
 if mod > 5:
@@ -10,4 +11,4 @@ if mod > 5:
 elif mod == 0:
     print("Last digit of", number, "is", mod, "and is 0")
 elif mod < 5 and not 0:
-    print("Last digit of", number, "is", mod,"and is less than 6 and not 0")
+    print("Last digit of", number, "is", mod, "and is less than 6 and not 0")
