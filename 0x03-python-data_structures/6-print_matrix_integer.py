@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
     if not matrix:
+        print()
         return None
     else:
         for i in matrix:
@@ -9,4 +10,3 @@ def print_matrix_integer(matrix=[[]]):
                     print("{:d}".format(i[j]))
                 else:
                     print("{:d} ".format(i[j]), end="")
-
