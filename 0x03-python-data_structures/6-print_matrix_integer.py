@@ -2,7 +2,6 @@
 def print_matrix_integer(matrix=[[]]):
     if not matrix:
         print()
-        return None
     else:
         for i in matrix:
             for j in range(len(i)):
