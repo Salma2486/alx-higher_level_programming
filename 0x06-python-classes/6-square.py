@@ -3,7 +3,6 @@
 This module contains utility functions for handling strings.
 """
 
-
 class Square:
     """
     A class representing a square.
@@ -12,7 +11,6 @@ class Square:
         __size (int): The size of the square.
         __position (tuple): The position of the square.
     """
-
     def __init__(self, size=0, position=(0, 0)):
         """
         Initializes a new Square instance with the given size and position.
@@ -23,7 +21,7 @@ class Square:
 
         Raises:
             TypeError: If size is not an integer or position is not a tuple of 2 positive integers.
-            ValueError: If size is less than 0 or position contains non-positive integers.
+            ValueError: If size is less than 0 or position values are not positive integers.
         """
         self.size = size
         self.position = position
@@ -78,8 +76,9 @@ class Square:
         Raises:
             TypeError: If value is not a tuple of 2 positive integers.
         """
-        if type(value) != tuple or len(value) != 2 or type(value[0]) != int or type(value[1]) != int or value[0] < 0 or value[1] < 0:
-            raise TypeError("position must be a tuple of 2 positive integers")
+        if not isinstance(value, tuple) or len(value) != 2 or \
+                not all(isinstance(i, int) and i >= 0 for i in value):
+                    raise TypeError("position must be a tuple of 2 positive integers")
         else:
             self.__position = value
 
@@ -94,10 +93,9 @@ class Square:
 
     def my_print(self):
         """
-        Prints the square with the character #.
+        Prints the square with the character # and using the position.
 
-        If size is equal to 0, it prints an empty line.
-        Position is used to determine spacing.
+        If size is equal to 0, prints an empty line.
         """
         if self.__size == 0:
             print()
