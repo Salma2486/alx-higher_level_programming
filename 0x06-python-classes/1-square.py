@@ -6,6 +6,6 @@ class Square:
     """ejhriwurethwrut"""
 
     def __init__(self,size):
-        """ kjserngijwren trewnijlgt"""
+        """jser ngijwren trewnijlgt"""
 
         self.__size = size
