@@ -1,12 +1,11 @@
 #!/usr/bin/python3
-
 """ ksjdrglihsjerhgsil"""
 
 
 class Square:
     """ejhriwurethwrut"""
 
-    def __init__(self,size):
+    def __init__(self, size):
         """
         jser ngijwren 
         trewnijlgt
