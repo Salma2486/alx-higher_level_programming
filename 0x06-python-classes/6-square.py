@@ -3,6 +3,7 @@
 This module contains utility functions for handling strings.
 """
 
+
 class Square:
     """
     A class representing a square.
@@ -11,6 +12,7 @@ class Square:
         __size (int): The size of the square.
         __position (tuple): The position of the square.
     """
+
     def __init__(self, size=0, position=(0, 0)):
         """
         Initializes a new Square instance with the given size and position.
