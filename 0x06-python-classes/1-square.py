@@ -10,5 +10,4 @@ class Square:
         jser ngijwren 
         trewnijlgt
         """
-
         self.__size = size
