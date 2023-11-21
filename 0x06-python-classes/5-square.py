@@ -24,6 +24,7 @@ class Square:
             ValueError: If size is less than 0.
         """
         self.__size = size
+
     @property
     def size(self):
         """
@@ -32,6 +33,7 @@ class Square:
             int: The size of the square.
         """
         return self.__size
+
     @size.setter
     def size(self, value):
         """
@@ -66,5 +68,5 @@ class Square:
         if self.__size == 0:
             print()
         else:
-            for _ in range(self.__size):
+            for i in range(self.__size):
                 print("#" * self.__size)
