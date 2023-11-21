@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-"""
-wooooooob
-"""
+"""Define a class Square."""
 class Square:
-    """
-    A class representing a square.
-    """
+    """Represent a square."""
     pass
