@@ -3,7 +3,6 @@
 
 class Square:
     """ejhriwurethwrut"""
-
     def __init__(self, size):
         """
         jser ngijwren 
