@@ -24,3 +24,8 @@ number and str
 no first name
 	>>> say_my_name("", "ahmed")
 	My name is  ahmed
+
+str and number
+	>>> say_my_name(32, "salma")
+	Traceback (most recent call last):
+	TypeError: first_name must be a string
