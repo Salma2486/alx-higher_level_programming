@@ -48,4 +48,6 @@ class Rectangle:
 
     def perimeter(self):
         """uqiot5 uiwe thiue thgu"""
+        if width or height == 0:
+            return 0
         return 2 *(self.width + self.height)
