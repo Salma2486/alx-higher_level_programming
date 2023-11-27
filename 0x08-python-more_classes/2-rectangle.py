@@ -44,10 +44,10 @@ class Rectangle:
 
     def area(self):
         """iwrhg  uiqeth guwe g"""
-        return self.width * self.height
+        return self.__width * self.__height
 
     def perimeter(self):
         """uqiot5 uiwe thiue thgu"""
-        if self.width or self.height == 0:
+        if self.__width or self.__height == 0:
             return 0
-        return 2 *(self.width + self.height)
+        return 2 *(self.__width + self.__height)
