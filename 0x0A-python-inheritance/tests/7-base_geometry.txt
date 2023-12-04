@@ -1,0 +1,6 @@
+import the function:
+	>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+case 1
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("my_int", 12)
