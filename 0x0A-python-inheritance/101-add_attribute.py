@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" erjn yeroinkl w6y4kml w"""
+
+
 def add_attribute(obj, name, value):
     """ Function that adds a new attribute to an object
 
