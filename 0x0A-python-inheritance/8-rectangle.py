@@ -1,20 +1,5 @@
 #!/usr/bin/python3
-"""ohirt ijoer yijojre yoije"""
-
-
-class BaseGeometry:
-    """jlk skl snetgo estgoi j es"""
-
-    def area(self):
-        """i osietguh oiergoihser oig"""
-        raise Exception("area() is not implemented")
-
-    def integer_validator(self, name, value):
-        """ jkesgt jhlesthk ewori hio er"""
-        if not isinstance(value, int):
-            raise TypeError("<name> must be an integer")
-        elif value <= 0:
-            raise ValueError("<name> must be greater than 0")
+""" iojetw pijoo5 4yqeypo j jw eyetpojw ty"""
 
 
 class Rectangle(BaseGeometry):
