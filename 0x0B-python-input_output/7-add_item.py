@@ -14,6 +14,6 @@ try:
 
 except (ValueError, FileNotFoundError):
     old_data = []
-for args in sys.argv[1:]
-old_data.append(args)
+for args in sys.argv[1:]:
+    old_data.append(args)
 save_json(old_data, 'add_item.json')
