@@ -4,5 +4,5 @@
 
 def append_write(filename="", text=""):
     """iu 4wyoin wy46inlow y64"""
-        with open(filename, 'a', encoding="utf-8") as file:
-            return file.write(text)
+    with open(filename, "a", encoding="utf-8") as file:
+        return file.write(text)
