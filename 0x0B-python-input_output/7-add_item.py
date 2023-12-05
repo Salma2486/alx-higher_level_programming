@@ -11,7 +11,7 @@ load_from_json_file = __import__('8-load_from_json_file').load_from_json_file
 file = "add_item.json"
 try:
     old_data = load_from_json_file('add_item.json')
-except Exception:
+except(ValueError, FileNotFoundError):
     old_data = []
 for args in sys.argv[1:]
 old_data.append(args)
