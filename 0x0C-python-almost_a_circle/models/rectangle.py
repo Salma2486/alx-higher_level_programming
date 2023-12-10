@@ -102,3 +102,8 @@ class Rectangle(Base):
         """ wrytw y6re y6r"""
         return "[Rectangle] ({}) {}/{} - {}/{}".format(
                 self.id, self.x, self.y, self.width, self.height)
+
+    def to_dictionary(self):
+        """ ourehhu sregthuoiser gtser """
+        return {'x': self.x, 'y': self.y, 'id': self.id,
+                'height': self.height, 'width': self.width}
