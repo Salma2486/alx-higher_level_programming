@@ -12,10 +12,6 @@ class Square(Rectangle):
         """oihrs tyluhrsoi ytols rt"""
         super().__init__(size, size, x, y, id)
 
-    def __str__(self):
-        """ ey5althje asyo5i;js ryt"""
-        return f"[Square] ({self.id}) {self.x}/{self.y} - {self.width}"
-
     @property
     def size(self):
         """ rht wtyh yher"""
@@ -26,6 +22,10 @@ class Square(Rectangle):
         """ wrhe yrhe yhr"""
         self.width = value
         self.height = value
+
+    def __str__(self):
+        """ ey5althje asyo5i;js ryt"""
+        return f"[Square] ({self.id}) {self.x}/{self.y} - {self.width}"
 
     def update(self, *args, **kwargs):
         """ib ui hy uhi8h8 8u"""
