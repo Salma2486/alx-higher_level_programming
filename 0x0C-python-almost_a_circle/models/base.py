@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ we5t wy5e  yw4rwy 454"""
 import json
+import csv
 
 
 class Base:
@@ -63,8 +64,8 @@ class Base:
         try:
             with open(filename, mode='r') as file:
                 json_str = file.read()
-                dictionaries = cls.from_json_string(json_str)
-                instances = [cls.create(**dictionary) for dictionary in dictionaries]
+                dicts = cls.from_json_string(json_str)
+                instances = [cls.create(**dictionary) for dictionary in dicts]
                 return instances
         except FileNotFoundError:
             return []
