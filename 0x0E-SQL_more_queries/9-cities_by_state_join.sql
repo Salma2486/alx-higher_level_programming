@@ -1,3 +1,4 @@
 -- ftsdrg trsh 
 -- srthrsdtfh  trhs
-SELECT cities.id, cities.name, states.name from cities JOIN states on cities.state_id = states.id order by cities.id asc;
+SELECT cities.id, cities.name, states.name
+FROM cities JOIN states ON cities.state_id = states.id ORDER BY cities.id ASC;
