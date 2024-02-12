@@ -6,8 +6,8 @@ if (!isNaN(size)) {
     for (let j = 0; j < size; j++) {
       row += 'X';
     }
-      console.log(row);
+    console.log(row);
   }
 } else {
-    console.log("Missing size");
+  console.log('Missing size');
 }
