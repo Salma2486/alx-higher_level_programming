@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ dtrhdrt hdrt hydrh drt hy"""
 
+
 def find_peak(list_of_integers):
     """s ekjgnseio rjgtaoie rjaoi"""
     if not list_of_integers:
